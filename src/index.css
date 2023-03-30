@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overscroll-behavior: none;
+  scroll-behavior: smooth;
+}
+
+p {
+  @apply font-Krub text-[16px] font-5 text-secondary-3;
+}
+
+a {
+  @apply no-underline;
+}
